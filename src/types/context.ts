@@ -1,6 +1,6 @@
-export interface Context {
+export type Context = {
   user?: {
     id: string;
     companyId: string;
   };
-}
+};

@@ -4,7 +4,7 @@ import { startServerAndCreateNextHandler } from "@as-integrations/next";
 import { connectDataBase } from "@/database/connectDatabase";
 import { typeDefs } from "@/schema";
 import { resolvers } from "@/resolvers";
-import { Context } from "@/context/context";
+import { Context } from "@/types/context";
 
 connectDataBase();
 
