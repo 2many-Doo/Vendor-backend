@@ -8,3 +8,4 @@ export * from "./get-persons";
 export * from "./get-person";
 export * from "./get-shop-deliveries";
 export * from "./get-shop-delivery";
+export * from "./get-delivery-shop-id";

@@ -42,6 +42,8 @@ export const shopDeliverySchema = gql`
   type Query {
     getShopDelivery(id: ID!): ShopDelivery!
     getShopDeliveries: [ShopDelivery!]!
+    getShopDeliveriesByShopId(shopId: ID!): [ShopDelivery!]!
+    getShopDeliveriesByDeliveryPersonId(deliveryPersonId: ID!): [ShopDelivery!]!
   }
 
   type Mutation {
