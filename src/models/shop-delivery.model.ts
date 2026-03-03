@@ -46,6 +46,7 @@ const ShopDeliverySchema = new Schema<IShopDelivery>(
       type: String,
       enum: ["CASH", "BANK_TRANSFER", "CREDIT_CARD", "NOT_PAYMENT"],
       required: true,
+      default: "NOT_PAYMENT",
     },
 
     products: [

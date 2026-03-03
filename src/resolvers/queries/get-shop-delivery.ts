@@ -51,7 +51,7 @@ export const getShopDelivery: QueryResolvers["getShopDelivery"] = async (
         price: p.price,
       })),
       barcode: shopDelivery.barcode,
-      transactionType: shopDelivery.transactionType,
+      transactionType: shopDelivery.transactionType ?? "NOT_PAYMENT",
       totalPrice: shopDelivery.totalPrice,
       createdAt: shopDelivery.createdAt,
       updatedAt: shopDelivery.updatedAt,
